@@ -1,5 +1,5 @@
 # Darknet 컴파일에 필요한 기본 환경 (Ubuntu 18.04 기반)
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 # 시간대 설정 질문을 건너뛰도록 설정 (이 줄을 추가합니다)
 ENV DEBIAN_FRONTEND=noninteractive
 # 환경 업데이트 및 빌드 도구 설치
